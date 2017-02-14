@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BigARTM text analysis</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="analyse.js"></script>
+</head>
+<body>
+    <h1 class="header">BigARTM text analysis</h1>
+    <div class="textin">
+        <p class="description">Paste a text in input for matching to Data Science topics</p>
+        <textarea class="inputtextin" type="text">
+        </textarea>
+    </div>
+    <div class="topicsout">
+        <button type="button" class="findtopics" onclick="myFunction()">Find topics</button>
+        <div id="topics">
+            <p class="match1">clustering</p>
+            <p class="match2">probability</p>
+            <p class="match3">time series</p>
+            <p class="match4">database</p>
+        </div>
+    </div>
+</body>
+</html>
